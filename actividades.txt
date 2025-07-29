@@ -1,0 +1,2 @@
+1- Realizar un modelo entidad relacion completa del modelo de su empresa.(hacerlo en draw.io)
+2- Realizar la base de datos en xampp de las entidades seleccionadas en clase.
