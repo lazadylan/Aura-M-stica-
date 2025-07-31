@@ -1,0 +1,37 @@
+.campo-texto{
+    width:10rem;
+    height:2rem;
+    position: relative;
+    margin: 1rem;
+}
+
+.campo-texto input{
+    border: none;
+    background: var(--back-color2);
+    height: 100%;
+    width: 100%;
+    color: var(--main-color2);
+    text-indent: 1rem;
+    border: 0.1rem solid  var(--main-color2);
+    border-radius: 0.2rem;
+    box-shadow: 0.1rem 0.1rem 0 rgba(0,0,0,0.75);
+}
+
+.campo-texto label{
+    position: absolute;
+    top: 50%;
+    left: 1%;
+    transform: translate(-1%,-50%);
+    transition:  all 0.5s ease;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    color: var(--text-color2);
+}
+
+.campo-texto input:hover+label,
+.campo-texto input:valid+label,
+.campo-texto input:focus+label{
+    top: -25%;
+    background: var(--main-color2);
+    color: var(--text-color);
+}
